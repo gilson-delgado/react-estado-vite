@@ -9,11 +9,12 @@ class Panel extends Component{
         }
     }
 
-    render(){        
+    render(){   
+          
         return(
             <section className="panel" onClick={
-               () => {              
-                    this.setState(
+             () => {              
+                this.setState(
                         {title: 'Título novo'}
                     )
                 }
